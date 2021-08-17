@@ -1,0 +1,1047 @@
+/* Start custom CSS for button, class: .elementor-element-76752194 */
+.bdt-active .buy .elementor-button {
+    background-color: #ffffff !important;
+    color: #001a5e !important;
+
+}
+
+/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-32519dfb */
+.elementor-2224 .elementor-element.elementor-element-32519dfb.bdt-sticky.bdt-active {
+    background-color: linear-gradient(-45deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
+    /* transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+    background-image: linear-gradient(-45deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.elementor-2224 .elementor-element.elementor-element-32519dfb.bdt-sticky.bdt-active {
+    background-color: #4777f4;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* End custom CSS */
+/* Start custom CSS for image, class: .elementor-element-39ea1514 */
+.elementor-element.elementor-element-39ea1514.atp-fanpage.elementor-widget.elementor-widget-image::before {
+    content: "";
+    background-image: url(https://fanpage.vn/wp-content/uploads/2018/07/atp-fanpage-boder.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -2%;
+    bottom: -88px;
+    left: 10%;
+    right: 10%;
+    background-position: center;
+}
+
+@media (max-width:480px) {
+
+    .elementor-element.elementor-element-39ea1514.atp-fanpage.elementor-widget.elementor-widget-image::before {
+        bottom: -27px;
+    }
+
+}
+
+/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-13cd44dd */
+.elementor-2224 .elementor-element.elementor-element-13cd44dd {
+    background-color: transparent;
+    background-image: linear-gradient(-45deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+#calltrap-btn,
+#calltrap-overlay {
+    position: fixed;
+    text-align: center
+}
+
+#calltrap-btn {
+    background-color: #2074a1;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    height: 64px;
+    line-height: 100px;
+    opacity: .7;
+    left: 35px;
+    bottom: 10px;
+    width: 64px;
+    z-index: 9999;
+    -webkit-animation: calltrap_opacity 3s infinite linear;
+    -moz-animation: calltrap_opacity 3s infinite linear;
+    -o-animation: calltrap_opacity 3s infinite linear;
+    animation: calltrap_opacity 3s infinite linear
+}
+
+#calltrap-btn.calltrap_offline {
+    background-color: #1CB2ED
+}
+
+#calltrap-ico {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    right: 220px;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    -webkit-border-radius: 50% !important;
+    border-radius: 50% !important;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-animation: uptocallmini 1.5s 0s ease-out infinite;
+    -moz-animation: uptocallmini 1.5s 0s ease-out infinite;
+    -o-animation: uptocallmini 1.5s 0s ease-out infinite;
+    animation: uptocallmini 1.5s 0s ease-out infinite
+}
+
+.calltrap_offline #calltrap-ico {
+    -webkit-animation: uptocallmini_offline 1.5s 0s ease-out infinite;
+    -moz-animation: uptocallmini_offline 1.5s 0s ease-out infinite;
+    -o-animation: uptocallmini_offline 1.5s 0s ease-out infinite;
+    animation: uptocallmini_offline 1.5s 0s ease-out infinite
+}
+
+#calltrap-overlay {
+    background-color: #191919;
+    background-color: rgba(25, 25, 25, .9);
+    z-index: 9998;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none
+}
+
+#calltrap-overlay .b-calltrap-overlay {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+#calltrap-overlay .b-calltrap-overlay__body,
+#calltrap-overlay .b-calltrap-overlay__footer,
+#calltrap-overlay .b-calltrap-overlay__header {
+    display: table-row;
+    padding: 0;
+    margin: 0
+}
+
+#calltrap-overlay .b-calltrap-overlay__body-block,
+#calltrap-overlay .b-calltrap-overlay__footer-block,
+#calltrap-overlay .b-calltrap-overlay__header-block {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+#calltrap-overlay .b-calltrap-overlay__body-block {
+    padding: 0 7px
+}
+
+#calltrap-overlay .b-calltrap-overlay__footer,
+#calltrap-overlay .b-calltrap-overlay__header {
+    height: 1px
+}
+
+#calltrap-overlay .b-calltrap__container {
+    background-color: #fff;
+    border: 5px solid #2074a1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.3;
+    position: relative;
+    font-family: Tahoma, Arial, self-serif !important
+}
+
+@media screen and (min-width:1px) and (max-width:500px) {
+    #calltrap-overlay .b-calltrap__container {
+        width: 290px
+    }
+
+    #calltrap-form .b-calltrap_form__title,
+    #calltrap-success .b-calltrap_form__title {
+        padding-right: 20px
+    }
+}
+
+#calltrap-overlay .b-calltrap__close {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    opacity: .5;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+#calltrap-overlay .b-calltrap__close:hover {
+    opacity: 1
+}
+
+#calltrap-form,
+#calltrap-success {
+    display: block
+}
+
+#calltrap-form .b-calltrap_form__fields,
+#calltrap-success .b-calltrap_form__fields {
+    margin: 20px 25px 35px
+}
+
+#calltrap-form .b-calltrap_form__title,
+#calltrap-success .b-calltrap_form__title {
+    font-size: 20px;
+    margin: 0 0 17px;
+    text-align: left
+}
+
+#calltrap-form .b-calltrap_form__text,
+#calltrap-success .b-calltrap_form__text {
+    text-align: left
+}
+
+#calltrap-form .b-calltrap_form__text p,
+#calltrap-success .b-calltrap_form__text p {
+    margin: 0 0 .55em
+}
+
+#calltrap-form .b-calltrap_form__input,
+#calltrap-success .b-calltrap_form__input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0 15px;
+    height: 44px;
+    line-height: 40px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    outline: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+#calltrap-form .b-calltrap_form__input.error,
+#calltrap-success .b-calltrap_form__input.error {
+    background-color: #ffc0c0;
+    color: red;
+    border-color: red
+}
+
+#calltrap-form .b-calltrap_form__input:disabled,
+#calltrap-success .b-calltrap_form__input:disabled {
+    background-color: #eee;
+    border-color: #bdbdbd;
+    cursor: default
+}
+
+#calltrap-form .b-calltrap_form__input:focus,
+#calltrap-success .b-calltrap_form__input:focus {
+    border: 2px solid #2074a1
+}
+
+#calltrap-form .b-calltrap_form__submit,
+#calltrap-success .b-calltrap_form__submit {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #2074a1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    height: 44px;
+    line-height: 40px;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    outline: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+@media screen and (min-width:1px) and (max-width:500px) {
+
+    #calltrap-form .b-calltrap_form__input,
+    #calltrap-success .b-calltrap_form__input {
+        margin-bottom: 13px
+    }
+
+    #calltrap-form .b-calltrap_form__submit,
+    #calltrap-success .b-calltrap_form__submit {
+        width: 100%
+    }
+}
+
+#calltrap-form .b-calltrap_form__submit:hover,
+#calltrap-success .b-calltrap_form__submit:hover {
+    background-color: #1c658c
+}
+
+#calltrap-form .b-calltrap_form__submit:disabled,
+#calltrap-success .b-calltrap_form__submit:disabled {
+    background-color: #bdbdbd !important;
+    cursor: default
+}
+
+#calltrap-form .b-calltrap_form__controls,
+#calltrap-success .b-calltrap_form__controls {
+    margin: 20px 0 0;
+    padding: 0 200px 0 0
+}
+
+#calltrap-form .b-calltrap_form__controls-item,
+#calltrap-success .b-calltrap_form__controls-item {
+    position: relative;
+    float: right
+}
+
+#calltrap-form .b-calltrap_form__controls-left,
+#calltrap-success .b-calltrap_form__controls-left {
+    margin-left: -100%;
+    width: 100%
+}
+
+#calltrap-form .b-calltrap_form__controls-right,
+#calltrap-success .b-calltrap_form__controls-right {
+    margin-right: -200px;
+    overflow: visible;
+    width: 200px;
+    text-align: right
+}
+
+@media screen and (min-width:1px) and (max-width:500px) {
+
+    #calltrap-form .b-calltrap_form__controls,
+    #calltrap-success .b-calltrap_form__controls {
+        padding: 0
+    }
+
+    #calltrap-form .b-calltrap_form__controls-item,
+    #calltrap-success .b-calltrap_form__controls-item {
+        float: none
+    }
+
+    #calltrap-form .b-calltrap_form__controls-left,
+    #calltrap-success .b-calltrap_form__controls-left {
+        margin-left: 0
+    }
+
+    #calltrap-form .b-calltrap_form__controls-right,
+    #calltrap-success .b-calltrap_form__controls-right {
+        margin-right: 0;
+        width: auto;
+        text-align: left
+    }
+}
+
+#calltrap-form .b-calltrap_form__controls-clear,
+#calltrap-success .b-calltrap_form__controls-clear {
+    clear: both
+}
+
+#calltrap-success {
+    display: none
+}
+
+#calltrap-overlay.calltrap_offline .b-calltrap_form__submit {
+    background-color: #1CB2ED
+}
+
+#calltrap-overlay.calltrap_offline .b-calltrap_form__submit:hover {
+    background-color: #2e8c1c
+}
+
+#calltrap-overlay.calltrap_offline .b-calltrap__container,
+#calltrap-overlay.calltrap_offline .b-calltrap_form__input:focus {
+    border-color: #1CB2ED
+}
+
+@-webkit-keyframes calltrap_opacity {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    57% {
+        opacity: .75
+    }
+
+    75% {
+        opacity: .95
+    }
+}
+
+@-moz-keyframes calltrap_opacity {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    57% {
+        opacity: .75
+    }
+
+    75% {
+        opacity: .95
+    }
+}
+
+@-o-keyframes calltrap_opacity {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    57% {
+        opacity: .75
+    }
+
+    75% {
+        opacity: .95
+    }
+}
+
+@keyframes calltrap_opacity {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    57% {
+        opacity: .75
+    }
+
+    75% {
+        opacity: .95
+    }
+}
+
+@-webkit-keyframes calltrap_spin {
+
+    0%,
+    30%,
+    57% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    33%,
+    39%,
+    45%,
+    51% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg)
+    }
+
+    36%,
+    42%,
+    54% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg)
+    }
+
+    48% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+        opacity: 1
+    }
+}
+
+@-moz-keyframes calltrap_spin {
+
+    0%,
+    30%,
+    57% {
+        -moz-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    33%,
+    39%,
+    45%,
+    51% {
+        -moz-transform: rotate(-10deg);
+        transform: rotate(-10deg)
+    }
+
+    36%,
+    42%,
+    54% {
+        -moz-transform: rotate(10deg);
+        transform: rotate(10deg)
+    }
+
+    48% {
+        -moz-transform: rotate(10deg);
+        transform: rotate(10deg);
+        opacity: 1
+    }
+}
+
+@-o-keyframes calltrap_spin {
+
+    0%,
+    30%,
+    57% {
+        -o-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    33%,
+    39%,
+    45%,
+    51% {
+        -o-transform: rotate(-10deg);
+        transform: rotate(-10deg)
+    }
+
+    36%,
+    42%,
+    54% {
+        -o-transform: rotate(10deg);
+        transform: rotate(10deg)
+    }
+
+    48% {
+        -o-transform: rotate(10deg);
+        transform: rotate(10deg);
+        opacity: 1
+    }
+}
+
+@keyframes calltrap_spin {
+
+    0%,
+    30%,
+    57% {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    33%,
+    39%,
+    45%,
+    51% {
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        transform: rotate(-10deg)
+    }
+
+    36%,
+    42%,
+    54% {
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+        transform: rotate(10deg)
+    }
+
+    48% {
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+        transform: rotate(10deg);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes uptocallmini {
+    0% {
+        -webkit-box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(32, 116, 161, 0);
+        box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(32, 116, 161, 0)
+    }
+
+    10% {
+        -webkit-box-shadow: 0 0 8px 6px #2074a1, 0 0 12px 10px transparent, 0 0 12px 14px #2074a1;
+        box-shadow: 0 0 8px 6px #2074a1, 0 0 12px 10px transparent, 0 0 12px 14px #2074a1
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(32, 116, 161, 0);
+        box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(32, 116, 161, 0)
+    }
+}
+
+@-moz-keyframes uptocallmini {
+    0% {
+        box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(32, 116, 161, 0)
+    }
+
+    10% {
+        box-shadow: 0 0 8px 6px #2074a1, 0 0 12px 10px transparent, 0 0 12px 14px #2074a1
+    }
+
+    100% {
+        box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(32, 116, 161, 0)
+    }
+}
+
+@-o-keyframes uptocallmini {
+    0% {
+        box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(32, 116, 161, 0)
+    }
+
+    10% {
+        box-shadow: 0 0 8px 6px #2074a1, 0 0 12px 10px transparent, 0 0 12px 14px #2074a1
+    }
+
+    100% {
+        box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(32, 116, 161, 0)
+    }
+}
+
+@keyframes uptocallmini {
+    0% {
+        -webkit-box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(32, 116, 161, 0);
+        box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(32, 116, 161, 0)
+    }
+
+    10% {
+        -webkit-box-shadow: 0 0 8px 6px #2074a1, 0 0 12px 10px transparent, 0 0 12px 14px #2074a1;
+        box-shadow: 0 0 8px 6px #2074a1, 0 0 12px 10px transparent, 0 0 12px 14px #2074a1
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(32, 116, 161, 0);
+        box-shadow: 0 0 8px 6px rgba(32, 116, 161, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(32, 116, 161, 0)
+    }
+}
+
+@-webkit-keyframes uptocallmini_offline {
+    0% {
+        -webkit-box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(53, 161, 32, 0);
+        box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(53, 161, 32, 0)
+    }
+
+    10% {
+        -webkit-box-shadow: 0 0 8px 6px #35A120, 0 0 12px 10px transparent, 0 0 12px 14px #35A120;
+        box-shadow: 0 0 8px 6px #35A120, 0 0 12px 10px transparent, 0 0 12px 14px #35A120
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(53, 161, 32, 0);
+        box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(53, 161, 32, 0)
+    }
+}
+
+@-moz-keyframes uptocallmini_offline {
+    0% {
+        box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(53, 161, 32, 0)
+    }
+
+    10% {
+        box-shadow: 0 0 8px 6px #35A120, 0 0 12px 10px transparent, 0 0 12px 14px #35A120
+    }
+
+    100% {
+        box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(53, 161, 32, 0)
+    }
+}
+
+@-o-keyframes uptocallmini_offline {
+    0% {
+        box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(53, 161, 32, 0)
+    }
+
+    10% {
+        box-shadow: 0 0 8px 6px #35A120, 0 0 12px 10px transparent, 0 0 12px 14px #35A120
+    }
+
+    100% {
+        box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(53, 161, 32, 0)
+    }
+}
+
+@keyframes uptocallmini_offline {
+    0% {
+        -webkit-box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(53, 161, 32, 0);
+        box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 0 transparent, 0 0 0 0 rgba(53, 161, 32, 0)
+    }
+
+    10% {
+        -webkit-box-shadow: 0 0 8px 6px #1CB2ED, 0 0 12px 10px transparent, 0 0 12px 14px #1CB2ED;
+        box-shadow: 0 0 8px 6px #1CB2ED, 0 0 12px 10px transparent, 0 0 12px 14px #1CB2ED
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(53, 161, 32, 0);
+        box-shadow: 0 0 8px 6px rgba(53, 161, 32, 0), 0 0 0 40px transparent, 0 0 0 40px rgba(53, 161, 32, 0)
+    }
+}
+
+.atp_changelog pre {
+    background-image: linear-gradient(#f5f5f5 50%, #e6e6e6 50%);
+    background-size: 38px 38px;
+    border: 1px solid #d4d4d4;
+    line-height: 19px;
+    overflow: visible;
+    padding: 0 0 0 4px;
+    overflow-y: hidden;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.atp_changelog p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.single-post .content-inner iframe {
+    width: 100%;
+}
+
+.yeuweb-call {
+    display: block;
+}
+
+@media (max-width: 780px) {
+    .mb {
+        display: none;
+    }
+}
+
+@media (min-width: 780px) {
+    .pc {
+        display: block;
+    }
+}
+
+.yeuweb-vong {
+    top: 75px;
+    right: 10px;
+    width: 120px;
+    height: 120px;
+    z-index: 999999;
+    position: fixed;
+    border-radius: 100%;
+    border: 2px solid rgba(242, 203, 0, 0.88);
+    border-color: #0089B9;
+    opacity: .5;
+}
+
+.yeuweb-tron {
+    top: 90px;
+    right: 25px;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(242, 203, 0, 0.73);
+    opacity: 0.75;
+    z-index: 999999;
+    position: fixed;
+    border-radius: 100%;
+}
+
+.yeuweb-phone {
+    top: 105px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: rgba(30, 30, 30, 0.1) url(https://fanpage.vn/wp-content/plugins/ATP-Button-Buy/img/shopping-basket.png) no-repeat 50% 50%;
+    position: fixed;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    z-index: 999999;
+    background-color: rgba(242, 203, 0, 0.94);
+    background-size: 70%;
+    opacity: 0.7;
+}
+
+.yeuweb-text p {
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.yeuweb-text {
+    position: fixed;
+    top: 170px;
+    right: 20px;
+    z-index: 999999;
+    background-color: #ff0;
+    box-shadow: 5px 5px 5px #555;
+    color: #000;
+}
+
+@keyframes tada {
+    0% {
+        transform: scale(1);
+    }
+
+    10%,
+    20% {
+        transform: scale(0.9) rotate(-3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale(1.1) rotate(3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        -ms-transform: scale(.3);
+        transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.animated {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+#atp_button {
+    margin-top: 15px;
+    margin-bottom: 20px !important;
+}
+
+#atp_button a {
+    background-color: #f15e22;
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 22px;
+}
+
+.atp_form_body .elementor-column {
+    padding: 20px 20px 0;
+}
+
+#atp_form input[type=submit] {
+    margin: 0 auto 20px;
+}
+
+#atp_form .elementor-column.elementor-col-60,
+#atp_form .elementor-column.elementor-col-40,
+#atp_form .elementor-column.elementor-col-50 {
+    display: block;
+}
+
+#atp_form_dat_hang>.wpcf7 {
+    padding: 0 !important;
+}
+
+#atp_form .atp_form_head {
+    background-color: #61ce70;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#atp_form h4 {
+    margin-top: 0;
+}
+
+#atp_form .atp_form_body .elementor-col-50:last-child {
+    padding-right: 20px;
+}
+
+.atp_form_fade {
+    display: inline-block;
+    opacity: 1;
+    /*top:-1000px;*/
+    transition: all 0.1s;
+    z-index: 99999;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(0);
+
+}
+
+.atp_form_fade.in {
+    opacity: 1;
+    transform: scale(1);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.atp_button_close a {
+    color: #fff;
+    font-size: 30px;
+}
+
+.atp_button_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.atp_bg_form_add {
+    position: fixed;
+    background-color: #00000090;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: background-color 0.1s;
+}
+
+.atp_form_submit {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+}
+
+.atp_form_submit input[type=submit] {
+    background-color: #22f1ee;
+    padding: 0px 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#atp_form .elementor-col-40>div {
+    margin-bottom: 25px;
+}
+
+#atp_form .elementor-column p {
+    margin-bottom: 10px;
+}
+
+#atp_form .elementor-col-40 input:focus,
+#atp_form .elementor-col-40 input:hover {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    border-color: #66afe9 !important;
+}
+
+.atp_img_cam-ket {
+    width: 200px;
+}
+
+#atp_form .elementor-col-40 .form_sdt {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .atp_form_fade.in {
+        top: 0px;
+    }
+
+    .hide-mb {
+        display: none;
+    }
+
+    .atp_form_fade {
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) {
+    .atp_form_fade {
+        width: 700px
+    }
+
+    .atp_form_fade.in {
+        top: 100px;
+    }
+}
+
+.float-ck { position: fixed; bottom: 4px; z-index: 9000;left:2px}
+* html .float-ck {position:absolute;bottom:auto;top:expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))) ;}
+#float_content_left {}
+#hide_float_left {text-align:left; font-size: 18px;}
+#hide_float_left a {background: #01AEF0; padding: 4px 8px; color: #FFF;}
+#qcatp{ with:223px;height:80px}

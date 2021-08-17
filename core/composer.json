@@ -1,0 +1,12 @@
+{
+    "name": "anhvu/core",
+    "description": "This is core modules to customize from system",
+    "authors": [
+        {
+            "name": "Anh Vu",
+            "email": "vuhaianh1990@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
